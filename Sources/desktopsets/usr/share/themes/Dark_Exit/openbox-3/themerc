@@ -1,0 +1,50 @@
+#openbox theme Dark_Exit by JJ Posti from techtimejourney.net. Theme is GPL
+
+#Border
+border.color: #252424
+border.width: 7
+
+#Menu
+menu.items.active.bg: Solid Raised
+menu.items.active.bg.color: #155551
+menu.items.active.bg.border.color: #252424
+menu.items.active.bg.shadow: 70
+menu.items.active.bg.highlight: 130
+menu.items.active.disabled.text.color: #252424
+menu.items.active.text.color: #ffffff
+menu.items.font: shadow=y:shadowtint=50:shadowoffset=1
+menu.items.text.color: #FFFFFF
+menu.overlap.x:  -5
+menu.overlap.y:  -2
+menu.separator.color: #A29C9C
+menu.separator.padding.height: 2
+menu.separator.padding.width: 6
+menu.separator.width: 1
+menu.title.text.justify: Center
+
+#OSD
+osd.bg: Solid Raised
+osd.bg.color: #252424
+osd.bg.border.color: #252424
+osd.bg.shadow: 70
+osd.bg.highlight: 130
+osd.border.width: 4
+
+#Padding
+padding.width: 5
+
+#Window rules
+window.active.button.pressed.bg: Solid Raised
+window.active.button.pressed.bg.color: #252424
+window.active.button.pressed.bg.border.color: #252424
+window.active.button.unpressed.bg: ParentRelative Raised
+window.active.button.unpressed.bg.border.color: #252424
+window.active.button.unpressed.image.color: #ff1919
+window.active.client.color: #5f5d5d
+window.active.label.text.color: #72cf8c
+window.inactive.button.disabled.image.color: #dcdcdc
+window.inactive.button.hover.image.color: #f8f3be
+window.inactive.button.pressed.image.color: #a71919
+window.inactive.client.color: #616161
+window.inactive.title.separator.color: #888888
+window.label.text.justify: Center

@@ -1,0 +1,299 @@
+desktopsets-dark (0.9.1) Audax; urgency=urgency
+
+       * Into PostX Gnu/Linux 0.9
+       * Many config changes.
+ -- JJ Posti <techtimejourney.net>  Sun, 2 March 2025 13:49:10 +0200
+
+
+desktopsets-dark (0.9) Audax; urgency=urgency
+
+       * Into PostX Gnu/Linux 0.8
+       * Wallpaper changed.
+       * DM to Lxdm.
+       * Symblic links updated to python3.
+ -- JJ Posti <techtimejourney.net>  Fri, 3 Sep 2021 11:39:10 +0200
+
+
+desktopsets-dark (0.8.2) Audax; urgency=urgency
+
+       * Into PostX Gnu/Linux 0.7
+       * Text editor changed to ++Editor and ImageViewer added to menu.
+       * Wallpaper changed.
+ -- JJ Posti <techtimejourney.net>  Sat, 26 Dec 2020 11:39:10 +0200
+
+desktopsets-dark (0.8.1) Audax; urgency=urgency
+
+       * Fix .xinitrc and pulseaudio connection.
+ -- JJ Posti <techtimejourney.net>  Sun, 15 March 2019 11:39:10 +0200
+
+desktopsets-dark (0.8) Audax; urgency=urgency
+
+       * 0.8 version. 
+       * Desktop settings upgraded to match the release.
+ -- JJ Posti <techtimejourney.net>  Sun, 16 Feb 2019 11:39:10 +0200
+
+desktopsets-dark (0.7.3) Audax; urgency=urgency
+
+       * PostX 0.5 released - new default wallpaper: j3x.
+       * CRunner-QT to Runner-QT v5.
+       * Symbolic link for QPlayer added.
+       * Removed obsolete entries from autostart files(.xinitrc and openbox autostart)
+       * Adding LXDM theme.
+ -- JJ Posti <techtimejourney.net>  Sat, 4 Aug 2018 23:39:10 +0200
+
+desktopsets-dark (0.7.2) Audax; urgency=urgency
+
+       * New wallpaper dark4 is added as a default.
+       * Launcher link for Notes_app is created.
+       * Nova sound application link added as sound.
+       * Qcalculator link added.
+       * Link for Crunner-QT added.
+ -- JJ Posti <techtimejourney.net>  Sat, 2 Jun 2018 02:39:10 +0200
+
+
+
+desktopsets-dark (0.7.1) Audax; urgency=urgency
+
+       * RunIT browser argument support fixed.
+       * Power-Manager to C++(link created).
+ -- JJ Posti <techtimejourney.net>  Sun, 4 March 2018 02:39:10 +0200
+
+
+desktopsets-dark (0.7) Audax; urgency=urgency
+
+       * PostX 0.5 transition update.
+       * Various new symlinks added to postx-programs
+       * Notifyd is gone -> Volwi+Mate desktop's volume applet give this data now. Language functionalities continue without Notifyd(fi, spain and english). 
+       * Mate desktop's volume applet added to Tint2
+       * Wicd added to defaults.
+       * Synaptic and Bleachbit gone -> Giving some room by reducing image size.
+       * Keybinding for spanish keyboard changed to Winkey+n -> old binding conflicts with Openbox.
+ -- JJ Posti <techtimejourney.net>  Sun, 28 Jan 2018 13:10:24 +0200
+
+
+desktopsets-dark (0.6) Audax; urgency=urgency
+
+       * RunIT Browser link(runit) updated to reflect pathway changes.
+       * .xbindkeysrc entry for runit updated to reflect pathway changes(see /etc/skel/.xbindkeysrc).
+       * .xbindkeysrc entry for file-manager updated --> pointing to Crosslinker FM reboot.
+       * sfm link points to Crosslinker FM reboot version.
+       * Sequence FM is is still with the package. Its link is renamed to sfm_real(sfm_real command opens the real Sfm).
+       * Fixed link permission issues. The content should now be more protected.
+ -- JJ Posti <techtimejourney.net>  Sun, 20 Oct 2017 21:10:24 +0200
+
+
+desktopsets-dark (0.5.2) Audax; urgency=urgency
+
+       * Launchy & Clock toggle script added to .xbindkeysrc.
+       * Default wallpaper changed to e12(From PostX 0.5 wallpaper set)
+       * Tint2 & Launchy do not autostart by default. Bluedevil is also commented out.
+       * Tint2 removed from the default configuration.
+       * Openbox menu cleaned so that duplicates between Launchy are reduced.
+       * Midrange wallpaper removed from this package.
+       * Bleachbit and Htop added to Openbox menu.
+       * Default Dpi is 96 for desktop and Lightdm. (/etc/lightdm/lightdm.conf And .Xresources files)
+ -- JJ Posti <techtimejourney.net>  Tue, 20 Jun 2017 11:10:24 +0200
+
+desktopsets-dark (0.5.1) Audax; urgency=urgency
+
+       * Runner-QT link created.
+
+ -- JJ Posti <techtimejourney.net>  Fri, 21 Apr 2017 21:35:45 +0200
+
+
+desktopsets-dark (0.5) Audax; urgency=urgency
+
+       * Albix Player is the new music player. Replaces Vlc on the Openbox menu.
+       * albix command now launches Albix player; sfm launches Sequence FM; runit launches RunIT-QT Browser.
+       * Volume scripts are written again from scratch. They now support Pulseaudio and control multiple sound devices like Vol2X. Toggle mute/unmute now works and listens to keyboard press.
+       * Albix player takes VLC's place on shortkeys.
+       * rc.local script added to package (again). It was previously accidentally removed.
+       * Crosslinker FM added to Openbox menu as an alternative file manager.
+
+ -- JJ Posti <techtimejourney.net>  Sat, 15 April 2017 1135:44 +0200
+
+
+desktopsets-dark (0.4.2) Audax; urgency=urgency
+
+       * Sequence FM takes Crosslinker's place on .xbinkeysrc (Mod+4) and on Openbox menu.
+       * Html5 player added to Openbox menu.
+       * Tint2 outlook upgraded to 0.4.2 revision.
+       * 0.4.2 Wallpaper + new default wallpaper config added (midrange.png on /usr/share/postx-wallpapers)
+
+ -- JJ Posti <techtimejourney.net>  Tue, 28 Mar 2017 01:25:08 +0200
+
+
+desktopsets-dark (0.4.1.1) Audax; urgency=urgency
+
+       * Added Bluedevil to .xinitrc (provides Bluetooth if Gui is wanted: 0.4.1.1 change).
+       * Adwaita is default icon theme (0.4.1.1 change)
+       * Removed Depends field from package(0.4.1.1 change).
+	   * Tweaked Tint2 configuration.
+	   * Added Winkey+m menu launch for Openbox.(0.4.1.1 change)        
+       * Added Launchy-Panel entry to .xinitrc (0.4.1.1 change)
+       * Fixed package's version strings to 0.4 (0.4. original).
+       * RunIT-Qt becomes default web browser.
+
+ -- JJ Posti <techtimejourney.net>  Thu, 15 Dec 2016 23:24:08 +0200
+
+desktopsets-dark (0.3.4) Audax; urgency=urgency
+
+       * Dust theme removed. Murrine set provides default theme.
+       * Breakpoint wallpaper removed - PostX wallpaper package handles wallpapers.
+       * Rocks-Vol5 is now default wallpaper.
+       * .xbindkeysrc file updated to reflect new programs.
+       * Openbox menu is cleaned up. Now, it has less entries.
+       * New Tint2 panel configuration.
+       * Removed old left-over files.
+ -- JJ Posti <techtimejourney.net>  Tue, 22 Nov 2016 02:11:42 +0200
+
+
+desktopsets-dark (0.3.3.1) Audax; urgency=urgency
+
+       * Moved to Faeza icons (listed as dependency)
+       * Removed   gtk2-engines-oxygen gtk3-engines-oxygen as they break functionality (conflicting packages)
+       * Default Gtk theme is now Dust (this package contains it)
+       * Package renamed to desktopsets-dark
+       * This is the new recommended package
+       * Comes with a new default wallpaper: Breakpoint
+       * A darker Tint2 panel configuration
+       * New Xfce4 notify theme: Burn (made by JJ Posti)
+
+
+ -- JJ Posti <techtimejourney.net>  Sun, 17 Jan 2016 15:12:43 +0200
+
+
+desktopsets (0.3.2) Audax; urgency=urgency
+
+       * Crosslinker FM and RunIT browser replace firefox and pcmanfm.
+       * Voyager-v2 Vlc skin added
+       * Minor Fixes on menus.
+       * Tint2 config tuned.
+       * Minor shortkey changes
+       * Geany is now the default text editor. 
+       * Info pdf moved to base-files
+
+ -- JJ Posti <techtimejourney.net>  Sun, 20 Dec 2015 21:14:39 +0200
+
+desktopsets (0.3.1-beta1) Audax; urgency=urgency
+
+       * Pcmanfm and Firefox back to default. Adjusted menus and settings accordingly.
+
+ -- JJ Posti <techtimejourney.net>  Fri, 07 Aug 2015 23:27:47 +0200
+
+
+
+desktopsets (0.3-beta1) Audax; urgency=urgency
+
+       * Transition to openbox
+       * Added openbox key bindings
+       * Added openbox theme settings
+       * Cleaned up old residual configurations
+       * Added tint2 configuration
+       * Customized openbox menu
+
+
+ -- JJ Posti <techtimejourney.net>  Fri, 07 Aug 2015 22:14:39 +0200
+
+
+desktopsets (0.23) Audax; urgency=urgency
+
+       * Fixes malfunctional Nitrogen settings preventing proper background setup.
+       * Removed Hal and Volti was replaced with Volumeicon
+       * Added menuset as a shortkey program to Fluxbox and conky
+
+
+ -- JJ Posti <techtimejourney.net>  Sun, 16 Nov 2014 23:27:31 +0200
+
+
+desktopsets (0.24) Audax; urgency=urgency
+
+       * Modified for Audax-initial repository
+
+
+ -- JJ Posti <techtimejourney.net>  Mon, 17 Nov 2014 13:29:11 +0200
+
+
+
+desktopsets (0.25) Audax; urgency=urgency
+
+       * Made Conky smaller. Now it should fit to smaller screens.
+       * Pointed Nitrogen to use Epitaph theme background.
+       * Changed screenlocker color to generic grey.
+
+
+ -- JJ Posti <techtimejourney.net>  Wed, 03 Dec 2014 12:35:12 +0200
+		
+
+
+desktopsets (0.26) Audax; urgency=urgency
+
+	   * New shortkey Mod4+m for Synaptic (Updates).
+	   * Mod4+w now points for Wlansetup (Audax program)
+	   * Nitrogen is replaced by Wallselector.
+       	   * Lxmusic is disabled.
+           * Sysman2 (Gui) takes over reboot,shutdown,suspension etc. Sysman2 also becomes a launcher for Menu localizer. 
+           * Conky updated. Disabled by default.
+           * Changed screenlocker color to generic grey when Mod4+l is pressed.
+	   * Leafpad removed due to scaling issues experienced on dual screen configurations.
+	   * Focuswriter is removed and Abiword is restored. The flickering issue is now fixed (due to Audax kernel).
+	   * Root mode shortkey added for Thunar.
+           * Absolute themes are now default.
+	   * .Xinitrc is now more simplistic.
+
+ -- JJ Posti <techtimejourney.net>  Mon, 16 Feb 2015 15:23:12 +0200
+		
+
+desktopsets (0.26.1) Audax; urgency=urgency
+
+	   * Added "first time" network hotplug lines for eth0 to /etc/rc.local.
+	   * Added alsamixer to menus.
+	   * Sysman2 starts as a regular program now.
+	   * Added build-time history purge lines.
+	   
+ -- JJ Posti <techtimejourney.net>  Wed, 18 Feb 2015 11:30:52 +0200
+		
+desktopsets (0.27-release) Audax; urgency=urgency
+
+	   * ircii is replaced by irssi
+	   * Catfish added as a key
+	   * Tweaked emelfm2 replaces Thunar
+	   * Root-mode key (file-manager) taken out - was too dangerous.
+	   
+ -- JJ Posti <techtimejourney.net>  Thu, 26 Feb 2015 23:35:52 +0200
+
+desktopsets (0.28) Audax; urgency=urgency
+
+	   * Audax packaged versions of Pcmanfm and Xfbrun added to menus/distribution
+	   * Pcmanfm replaces Emelfm2 as default filemanager 
+	   * Clean_blue becomes default wallpaper
+	   * Default outlook of the system uses dark colors.
+	   * Remapped system keys to use Winkey launcher, so that they do not overlap with any used programs. 
+	   * A default gtk2 theme is now provided by gtk2-engines-nodoka (was murrine-themes)
+	   * Fixed the duplicate network settings issue, which appeared on live cd mode.
+	   * Removed automatic network calibration for wired interfaces and created Netset program to do that instead (included within audax-programs package).
+	   * Fixed Firefox based browser colors when using dark Gtk2 themes.
+	   * Vlc now works with play/pause, next and previous keyboard shortkeys.
+	   * Evince (Audax build) replaces xpdf as a default pdf reader.
+	   * Set Chromium as a default browser with privacy oriented settings - similar to Firefox.
+	   * To make things easier contrib repository is added. Contrib holds Pepper-flash (Flashplayer for Chrome/Chromium) package. The package was cloned from from Debian's contrib repository and repackaged to include -audax suffix.
+	   * Automatic screen blanking is now disabled by default via .xinitrc .
+	   * Pcmanfm tweaked to use gksudo instead of gksu when entering to a root mode.
+	   * Shortkey information pop-up added to desktop startup.
+	   * Synapse replaces Catfish as a search applet.
+	   
+ -- JJ Posti <techtimejourney.net>  Thu, 26 Apr 2015 04:36:12 +0200
+ 
+ desktopsets (0.28.1) Audax; urgency=urgency
+
+	   * Mapping startpage search correctly with Chromium
+	   * Updated .xinitrc
+	   * Fixed malformed audax repository naming
+	   
+ -- JJ Posti <techtimejourney.net>  Sat, 23 May 2015 14:21:06 +0200
+
+ desktopsets (0.28.2) Audax; urgency=urgency
+ 
+	   * Corrected shortkeys file
+	   
+ -- JJ Posti <techtimejourney.net>  Wed, 27 May 2015 06:11:06 +0200

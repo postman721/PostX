@@ -1,0 +1,9 @@
+Source: audax-desktop
+Package: desktopsets-dark-new
+Section: main
+Conflicts: desktopsets, desktopsets-dark
+Priority: extra
+Architecture: all
+Version: 0.9.1
+Maintainer: JJ Posti <jjposti@techtimejourney.net>
+Description: Default settings and desktop spesifications for PostX GNU/Linux.

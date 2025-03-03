@@ -1,0 +1,113 @@
+#openbox theme Requim by JJ Posti from techtimejourney.net. Theme is GPL
+
+
+border.color: #415a70
+border.width: 2
+
+menu.border.width: 2
+menu.items.active.bg: Solid Raised
+menu.items.active.bg.color: #415a70
+menu.items.active.bg.border.color: #202020
+menu.items.active.bg.shadow: 80
+menu.items.active.bg.highlight: 130
+menu.items.active.disabled.text.color: #252424
+menu.items.active.text.color: #ffffff
+menu.items.bg: Solid Raised
+menu.items.bg.color: #202020
+menu.items.bg.border.color: #202020
+menu.items.bg.shadow: 70
+menu.items.bg.highlight: 130
+menu.items.font: shadow=y:shadowtint=50:shadowoffset=1
+menu.items.text.color: #FFFFFF
+menu.overlap.x: -3
+menu.overlap.y: -3
+menu.separator.color: #415a70
+menu.separator.padding.height: 6
+menu.separator.padding.width: 5
+menu.separator.width: 3
+menu.title.bg: Solid Raised
+menu.title.bg.color: #415a70
+menu.title.bg.border.color: #202020
+menu.title.bg.shadow: 70
+menu.title.bg.highlight: 130
+menu.title.text.color: #000000
+menu.title.text.justify: Center
+
+
+osd.bg: Solid Raised
+osd.bg.color: #415a70
+osd.bg.border.color: #777f87
+osd.bg.shadow: 70
+osd.bg.highlight: 130
+osd.border.width: 6
+osd.hilight.bg: Gradient Vertical Raised
+osd.hilight.bg.color: #C1ABAB
+osd.hilight.bg.colorTo: #3d210a
+osd.hilight.bg.shadow: 70
+osd.hilight.bg.highlight: 130
+osd.hilight.bg.border.color: #848282
+osd.unhilight.bg: Solid Raised
+osd.unhilight.bg.color: #7B7B7B
+osd.unhilight.bg.border.color: #3C3F3D
+osd.unhilight.bg.shadow: 70
+osd.unhilight.bg.highlight: 130
+
+padding.height: 3
+padding.width: 3
+
+window.active.button.pressed.bg: Solid Raised
+window.active.button.pressed.bg.color: #1F1D1D
+window.active.button.pressed.bg.border.color: #646262
+window.active.button.pressed.bg.shadow: 20
+window.active.button.pressed.bg.highlight: 130
+window.active.button.pressed.image.color: #454644
+window.active.button.toggled.image.color: #F32525
+window.active.button.toggled.unpressed.bg: Solid Raised
+window.active.button.toggled.unpressed.bg.color: #5d90d0
+window.active.button.toggled.unpressed.bg.border.color: #646262
+window.active.button.toggled.unpressed.bg.shadow: 70
+window.active.button.toggled.unpressed.bg.highlight: 130
+window.active.button.unpressed.bg: ParentRelative Raised
+window.active.button.unpressed.bg.border.color: #c6c6c6
+window.active.button.unpressed.image.color: #D0D0D0
+window.active.client.color: #415a70
+
+window.active.grip.bg: Gradient Vertical Raised
+window.active.grip.bg.color: #202020
+window.active.grip.bg.colorTo: #415a70
+window.active.grip.bg.shadow: 70
+window.active.grip.bg.highlight: 130
+window.active.grip.bg.border.color: #202020
+window.active.handle.bg: raised  gradient crossdiagnal bevel1
+window.active.handle.bg.color: #202020
+window.active.handle.bg.colorTo: #415a70
+window.active.handle.bg.interlace.color: #415a70
+window.active.label.bg: parentrelative
+window.active.label.text.color: #EBF5EE
+
+window.active.title.bg: Gradient Vertical Raised
+window.active.title.bg.color: #202020
+window.active.title.bg.colorTo: #415a70
+window.active.button.disabled.image.color: #202020
+window.active.button.hover.image.color: #8db04d
+window.active.button.pressed.image.color: #c8be6b
+window.active.client.color: #415a70
+window.active.title.separator.color: #202020
+window.label.text.justify: Center
+window.client.padding.width: 4
+window.handle.width: 3
+
+window.inactive.title.bg: Gradient Vertical Raised
+window.inactive.title.bg.color: #202020
+window.inactive.title.bg.colorTo: #415a70
+window.inactive.title.bg.shadow: 80
+window.inactive.title.bg.highlight: 130
+window.inactive.title.bg.border.color: #202020
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #202020
+window.inactive.button.pressed.image.color: #415a70
+
+
+
+
+
