@@ -1,0 +1,11 @@
+sh /home/$USER/.wall/wall.sh &
+ 
+#If needed below is how you manually set the keyboard (examples:en=english es=spain fi=finland be=belgium ee=estonia. See more from the values file)
+
+#setxkbmap fi &
+xset -dpms s off &
+xbindkeys &
+touch $HOME/.toggle_launchy &
+osd &
+nm-applet &
+dbus-launch --exit-with-session openbox

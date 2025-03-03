@@ -1,0 +1,44 @@
+*foreground:       #00cc00         ! Bright green for regular text
+*foreground_bold:  #a8a19f         ! Lighter gray for bold text
+*cursor:           #a8a19f         ! Same as bold for cursor visibility
+*background:       #1b1918         ! Dark background for high contrast
+
+!! Black
+*color0:           #1b1918         ! Same as background, for true black
+*color8:           #5e5e5e         ! Dark gray for dimmed text
+
+!! Red
+*color1:           #f22c40         ! Bright red for warnings/errors
+*color9:           #f22c40         ! Same for bold red (keeps consistency)
+
+!! Green
+*color2:           #5ab738         ! Bright green for standard text
+*color10:          #5ab738         ! Same for bold green
+
+!! Yellow
+*color3:           #d5911a         ! A softer yellow, not too bright
+*color11:          #d5911a         ! Same yellow for bold text
+
+!! Blue
+*color4:           #407ee7         ! Standard blue, easily distinguishable
+*color12:          #407ee7         ! Bold blue
+
+!! Magenta
+*color5:           #6666ea         ! Softer magenta for contrast
+*color13:          #6666ea         ! Same magenta for bold text
+
+!! Cyan
+*color6:           #00ad9c         ! Clean cyan for clarity
+*color14:          #00ad9c         ! Same for bold cyan
+
+!! White
+*color7:           #a8a19f         ! Light gray text for readability
+*color15:          #f1efee         ! Very light gray for white text
+
+URxvt.intensityStyles:    false
+URxvt.background:        [70]#000000
+URxvt.depth:             32
+URxvt.font:              xft:monospace:size=11
+URxvt.scrollBar:         false
+URxvt.cursorColor:       #a8a19f      ! Cursor color for high contrast
+URxvt.colorUL:           #4682B4      ! Underline color (blue)

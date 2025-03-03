@@ -1,0 +1,12 @@
+gtk-theme-name="MurrinaBlu"
+gtk-icon-theme-name="Adwaita"
+gtk-cursor-theme-name="oxy-black"
+
+#Firefox fix
+style "ff" {
+text[NORMAL] = "#000000"
+base[NORMAL] = "#FFFFFF"
+}
+class "GtkInvisible" style "ff"
+widget "GtkInvisible" style "ff"
+#

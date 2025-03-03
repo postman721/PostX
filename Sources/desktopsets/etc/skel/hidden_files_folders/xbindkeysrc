@@ -1,0 +1,60 @@
+# For the benefit of emacs users: -*- shell-script -*-
+###########################
+# xbindkeys configuration #
+###########################
+
+#Launchy Toggle function
+"bash /usr/share/launchy_toggle.sh"
+	F6
+
+#Language
+
+"bash /usr/local/bin/fi.sh" 
+	Mod4 + f
+
+"bash /usr/local/bin/es.sh" 
+	Mod4 + n
+
+"bash /usr/local/bin/us.sh" 
+	Mod4 + u
+
+"/usr/share/run.py"
+	F3
+	
+"terminal"
+	F2
+		
+"web"
+	Alt + 1
+	
+"calculator"
+	Alt + 2
+
+"metapad"
+	Alt + 3
+
+"sfm"
+	Alt + 4
+
+
+"qpdfview"
+	Alt + 5
+
+"albix"
+	Alt + 6
+
+"python3 /usr/share/blue_pulse.py"
+	Alt + 7
+
+"pavucontrol"
+	Alt + 8
+
+"image"
+	Alt + 9
+	
+"python /usr/share/wall3.py"
+	Alt + w
+
+"slock"
+	Alt + l
+
