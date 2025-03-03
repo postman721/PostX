@@ -1,0 +1,27 @@
+---
+componentName:   debian
+welcomeStyleCalamares: true
+
+strings:
+    productName:         PostX Gnu/Linux
+    shortProductName:    PostX
+    version:             0.9 (postx)
+    shortVersion:        0.9
+    versionedName:       PostX 0.9 (postx)
+    shortVersionedName:  PostX Gnu/Linux
+    bootloaderEntryName: PostX Gnu/Linux
+    productUrl:          https://techtimejourney.net/audax
+    supportUrl:          https://techtimejourney.net/audax
+    releaseNotesUrl:     https://techtimejourney.net/audax
+
+images:
+    productLogo:         "postx-logo.png"
+    productIcon:         "postx-logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"
