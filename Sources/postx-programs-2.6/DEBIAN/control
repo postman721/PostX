@@ -1,0 +1,12 @@
+Source: audax-programs
+Package: postx-programs-new
+Replaces: audax-programs
+Conflicts: postx-programs
+Section: main
+Priority: extra
+Architecture: all
+Version: 2.6
+Maintainer: JJ Posti <jjposti@techtimejourney.net>
+Description: Scripts and programs specific for PostX Gnu/Linux (made by JJ Posti).
+
+

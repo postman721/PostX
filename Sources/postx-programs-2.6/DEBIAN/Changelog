@@ -1,0 +1,349 @@
+
+postx-programs-new (2.6) Audax; urgency=urgency
+* Major updates coming, preparing for release.
+ -- JJ Posti <techtimejourney.net>  Feb, 28 Fri 2025 23:15 +0200
+
+
+postx-programs-new (2.4) Audax; urgency=urgency
+* SpinFM to default filemanager. Integrated as sfm to help transition.
+* RunIT Browser to default.
+* QCalculator updated.
+
+ -- JJ Posti <techtimejourney.net>  Dec, 25 Thu 2020 3:15 +0200
+
+
+postx-programs-new (2.3) Audax; urgency=urgency
+* Finalize PostX Gnu/Linux changes.
+* Sequence FM; Runner-QT == Upgraded.
+* QCalculator added as calculator.
+* Just an imageviewer added.
+* Quick Terminal: lambda error fixed.
+* New package integrations and removing residuals from previous releases.
+* Clock changed from Python3 version to C++ version.
+
+ -- JJ Posti <techtimejourney.net>  Dec, 25 Thu 2020 3:15 +0200
+
+
+
+postx-programs-new (2.2) Audax; urgency=urgency
+* Remove dependencies from package - increase build automation.
+* Re-Add Vlc.
+* Re-Add Quick Terminal, replaces Simple-Terminal
+* Replace Metapad with ++Editor.
+
+ -- JJ Posti <techtimejourney.net>  Jul, 30 Thu 2020 13:15 +0200
+
+postx-programs-new (2.1) Audax; urgency=urgency
+* Add simple mount to its correct location
+* Fix Launchy entries to reflect the current situation.
+
+ -- JJ Posti <techtimejourney.net>  Mar, 15 Sun 2020 12:15 +0200
+
+
+postx-programs-new (2.0) Audax; urgency=urgency
+* Crosslinker FM Reboot replaced by Sequence FM 6.0.
+* Quick Terminal replaced by Simple Terminal.
+* Base Player upgraded to version 2.
+* Wallselector to upgraded to version 3(Python3)
+* Runner-QT stays at v.4. This is done to avoid regression bugs that break functionality.
+* Vlc and Veritas Gui removed from the package.
+* Metapad text-editor upgraded to version 1.3
+* Conky not installed by default - the old config files remain.
+* HTML-GTK Player removed -> Minimal Browser provides more stable playback experience.
+* Power-Manager is removed -> gksudo is out from Debian 10.
+* Removing Debian 9 era scripts that are now legacy.
+* Removing Wicd and adding Systemd network scripts
+
+ -- JJ Posti <techtimejourney.net>  Feb, 16 Sun 2020 00:15 +0200
+
+
+
+postx-programs-new (1.9.1) Audax; urgency=urgency
+* Crosslinker FM Reboot to 1.1: Colors tweaked + other minor fixes.
+* QPlayer v.2 replaces Veritas -> vlc-nox dropped as a dependency.
+* CRunner-QT to Runner-QT v5. --> Runner-QT survives upgrading better.
+* Conky returns to PostX Gnu/Linux - adding config to /usr/share/conky.
+ -- JJ Posti <techtimejourney.net>  Aug, 4 Sat 2018 20:30 +0200
+
+
+
+postx-programs-new (1.9) Audax; urgency=urgency
+* RunIT Browser starts using QWebEngine. Comes with Tabs + new outlook. Also, code is simplified now. This packages contains 0.7.1 version
+* Notes is added to applications(Openbox menu).
+* Launchy panel's outlook becomes more minimal.
+* Quick Terminal has a new outlook.
+* QCalculator v.2 added to package - replaces the Java based calculator.
+* Nova sound application v2. added to package - replaces Vol2X-Reloaded.
+* CRunner-QT to version 2 --> Replaces XRunner.
+
+ -- JJ Posti <techtimejourney.net>  Mon, 30 May 2018 20:30 +0200
+
+
+postx-programs-new (1.8.1) Audax; urgency=urgency
+
+* XRunner receives an update. Should be faster now.
+* Power-Manager is transfered to C++.
+* Crosslinker FM get a more balanced theme.
+* RunIT browser supports arguments now and uses Startpage as a default search engine.
+* Slock replaces i3lock on Power-Manager (C++).
+
+postx-programs-new (1.8) Audax; urgency=urgency
+
+* Fixed varios issues in code. This package is for Debian Stretch base.
+* Metapad, Volwi, XRunner and Base-player added.
+* Runner-QT replaced with XRunner.
+* Albix player  removed -> Base_player is the new default.
+* Calculator(Java) added.
+* Sequence FM and GTK-tools removed. Crosslinker FM is the current default.
+* Volwi added to  Launchy_toggle script. F6 will show and hide it.
+* HTML5-Gtk Player updated to 0.4 version -> Bug-fix release.
+* Synaptic and Bleachbit removed to make some room.
+* Without Systemd -> PostX Gnu/Linux continues without Systemd.
+* RunIT-Browser: Google search changed to Startpage search.
+
+ -- JJ Posti <techtimejourney.net>  Sun, 28 Jan 2018 20:30 +0200
+
+
+
+postx-programs (1.7) Audax; urgency=urgency
+
+* Upgrade:Runner-QT v.4 added to package.
+* Upgrade:RunIT-QT Browser v.0.6.1 added to package.
+* Upgrade:Albix Player 3.0 added to package.
+* Upgrade:HTML5-Gtk Player v.3 added to package.
+* Upgrade:Launchy-QT 1.5 added to package.
+* Crosslinker FM's 2017 Reboot is set to default file manager.
+* Sequence Fm remains in the package but sfm link points to Crosslinker now.
+* Python-mutagen added to dependencies.
+* apt-transport-https added as package dependency - since now repositories all https.
+
+ -- JJ Posti <techtimejourney.net>  Sun, 20 Oct 2017 20:30 +0200
+
+
+postx-programs (1.6) Audax; urgency=urgency
+
+* Sequence FM v.5 added to package.
+* Runner-QT v.3.0.1 added to package.
+* Power manager-QT v.6 added to package.
+* Vol2X-Reloaded v.2.0.1  added to package. /usr/share/vol2x.py acts as a launcher that inherits linking from bin.
+* RunIT-QT Browser v.0.6  added to package. /usr/share/run.py acts as a launcher that inherits linking from bin.
+* Digital-Clock takes the place of the older Launchy Clock.
+* Crosslinker FM removed from the package.
+* alsa-utils, pulseaudio-utils, pulseaudio are added as dependencies.
+
+ -- JJ Posti <techtimejourney.net>  Thu, 31 Aug 2017 19:00 +0200
+
+
+postx-programs (1.5) Audax; urgency=urgency
+
+* Albix 2.1. added to package.
+* Veritas Player v.1 added to package
+* Clock added to package
+* Launchy toggle script is upgraded to include clock.
+* Vimeo added to Html5-Gtk-Player. Player upgraded to v.0.2.
+* Media Launcher added to Launchy. Replaces Albix launch. - groups multiple programs together.
+* Fixed synaptic launch issues --> caused by a typing mistake.
+ -- JJ Posti <techtimejourney.net>  Tue, 20 Jun 2017 17:00 +0200
+
+
+postx-programs (1.4) Audax; urgency=urgency
+
+*Quick Terminal 0.5.2, minor upgrade: some entries moved to right-click menu + obsolete CSS removed.
+*RunIT-QT browser default size changed to a bit smaller.
+*Power-manager-QT v.5.1: Icons removed. Now, labels with texts. This is much more clearer.
+*Launchy-QT v.1: Launchy ported to QT. Icons are from Faenza theme.
+*Albix2: Albix is ported to QT5. Interface is improved. Playlist feature is there, you can play single song. There is also guidance printing itself to statusbar.
+*Sequence FM v.4: Code is cleaned and improved. 
+ -Gtk-Tools is added as a helper program. Gtk-Tools handles removing, moving and copying.
+*Runner-QT v.2: Code is cleaned. Interface is now simplified and intuitive.
+* Package changed to become more protected(a.k.a security incresed via more restricted permission setup).  
+
+ -- JJ Posti <techtimejourney.net>  Fri, 19 May 2017 15:00 +0200
+
+
+postx-programs (1.3) Audax; urgency=urgency
+
+* Albix player minor code fixes.
+* Runner-bar is replaced by Runner-QT, which is a more advanced QT5 version of the program.
+* Sequence FM upgraded to V.3. Adds file-roller support and changes modifier to Shitf-key.
+* Gir1.2 Vte to 2.91 version (dependency)
+* Quick Terminal Vte code changed to reflect gir1.2 vte code changes.
+ -- JJ Posti <techtimejourney.net>  Sat, 22 Apr 2017 17:20 +0200
+
+
+postx-programs (1.2) Audax; urgency=urgency
+
+* Albix player addded - also to Launchy. Vlc Removed from Launchy.
+
+ -- JJ Posti <techtimejourney.net>  Sat, 15 Apr 2017 17:20 +0200
+
+
+postx-programs (1.1) Audax; urgency=urgency
+
+* Sequence FM upgrades to v.2 Navigation bar and clipboard support added.
+
+ -- JJ Posti <techtimejourney.net>  Thu, 4 Apr 2017 23:20 +0200
+
+postx-programs (1.0) Audax; urgency=urgency
+
+* Sequence FM replaces Crosslinker FM (/usr/share/sfm.py).
+* Html5 player added (/usr/share/html5.py) --> Also put to RunIT-QT browser.
+* Launchy Power manager link fixed.
+* HTML5 playback dependencies added for Gstreamer.
+ -- JJ Posti <techtimejourney.net>  Tue, 28 Mar 2017 0:35 +0200
+
+
+postx-programs (0.9.6) Audax; urgency=urgency
+
+* PostX-Calendar upgrades to QT5
+* Power-Manager upgrades to QT5 and adds some Openbox+PostX Gnu/Linux integration
+* Quick Terminal upgrades: stability is improved and right-click menu is added. Also, interface is cleaned further.
+ -- JJ Posti <techtimejourney.net>  Sat, 18 Mar 2017 03:35 +0200
+
+
+postx-programs (0.9.5) Audax; urgency=urgency
+
+* RunIT-QT upgraded to 0.5.
+* Vol2x goes QT5.
+ -- JJ Posti <techtimejourney.net>  Tue, 14 Feb 2017 14:10 +0200
+
+
+postx-programs (0.9.4) Audax; urgency=urgency
+
+* Crosslinker FM upgraded to version 6.
+* Quick Terminal goes GTK3 and is now supporting CSS themes.
+ -- JJ Posti <techtimejourney.net>  Tue, 31 Jan 2017 9:05 +0200
+
+postx-programs (0.9.3) Audax; urgency=urgency
+
+* RunIT upgraded:Search engines added along with placeholder texts.
+ -- JJ Posti <techtimejourney.net>  Sun, 17 Jan 2017 17:12 +0200
+
+postx-programs (0.9.2) Audax; urgency=urgency
+
+* Bluetooth capacity added to Quick Terminal
+* Quick Terminal design upgraded
+* info added as dependency package together with rfkill
+* Fixed Alsa Sound Selector's minor typing mistake
+* Dropped Crosslinker FM playback features. They are already handeled by vlc call just fine - no need for duplicate. 
+* Added Launchy-Panel
+* RunIT Browser becomes default(Qt5 version) --> added to package. 
+ -- JJ Posti <techtimejourney.net>  Sun, 18 Dec 2016 19:56 +0200
+
+
+postx-programs (0.9.1) Audax; urgency=urgency
+
+* Fixed folder selection of Crosslinker FM
+* Disabled eyeD3 (mp3info function) from Crosslinker and also disabled magic module. The modules in question caused some stability problems.
+* Clarified Crosslinker double-click filetypes.
+* Fixed Apt-fetcher's "showing all packages" function.
+* Alsa Sound Selector added to terminal. Select HDMI sound with Sound Selector. Pavucontrol is ignorant of HDMI.
+
+ -- JJ Posti <techtimejourney.net>  Sun, 4 Dec 2016 18:26 +0200
+
+
+postx-programs (0.9) Audax; urgency=urgency
+
+* Wallselector upgraded to Python version (Wallselector 2).
+* Removed Fluxbox leftovers.
+* Upgraded Power-Manager to PyQT version.
+* Added Quick Terminal as default. Removed Sysman2 and made instructions for commands to be used in
+* Quick Terminal instead.
+* Firefox set as a default browser. RunIT browser 0.x. will be the future default when transitioned to a newer Debian base.
+* PostX-Calendar added.
+* Runner-Bar 0.2-CSS added.
+* Vol2x-Pulseaudio volume control application added.
+* Crosslinker FM upgraded to version 5.
+* Old Bluez4 examples removed as they are widely obsolete now.
+
+ -- JJ Posti <techtimejourney.net>  Fri, 18 Nov 2016 18:26 +0200
+
+
+
+Audax-programs (0.8.6.1) Audax; urgency=urgency
+
+* Added Cookies support for RunIT browser
+* Fixed previous timestamp mistake on 0.8.6 lines
+* Created and added Memory status program (launcher is integrated to Sysman2)
+
+ -- JJ Posti <techtimejourney.net>  Mon, 11 May 2015 18:26 +0200
+
+
+Audax-programs (0.8.6) Audax; urgency=urgency
+
+* Run It becomes the new web browser
+* Crosslinker FM matures: now comes with Miimo integration etc.
+* Miimo decompression/comprerssion has two versions: Standalone-Cli and Crosslinker integrated
+* Apt-fetcher updated: now has remove packages entry
+
+ -- JJ Posti <techtimejourney.net>  Tue, 15 Dec 2015 21:00 +0200
+
+
+Audax-programs (0.8.5.) Audax; urgency=urgency
+
+* Added miimo compressing and decompressing program (replaces: file-roller)
+* Added apt-fetcher (Replaces: Synaptic)
+* Upgraded sysman2 gui launcher: added apt-fetcher, miimo and arandr
+* Fixed updates script. Now, works integrated with apt-fetcher
+* Tweaked sound selector entries to reflect the fact that usb headsets/devices also seem to work well
+* Added starter script for Miimo tool and mapped Sysman2 to launch that first. (So that the Miimo could go to desired directory upon startup)
+* Fixed wall selector's entries to reflect PostX instead of Audax
+
+ -- JJ Posti <techtimejourney.net>  Sat, 08 May 2015 18:26 +0200
+
+
+Audax-programs (0.8.4.) Audax; urgency=urgency
+
+* Fixed netset functionality.
+* Added gksudo lines to sysman2 to fix and ease functionality.
+* Netset and Wlanset are gksudo scripts by default now. 
+* Terminator is now the used shell in audax-programs.
+* Wallselector moved to sysman2
+* halt command changed to poweroff
+
+
+ -- JJ Posti <techtimejourney.net>  Sat, 23 May 2015 10:20 +0200
+
+Audax-programs (0.8.3) Audax; urgency=urgency
+
+* Created Power manager gui for common tasks (shutdown, reboot etc.).
+* Netset program added to Sysmanager2
+* Wallselector is now also placed under Power manager.
+* Sysman2 is now a launcher for all the Audax applications that ,mostly, require admin password.
+* Purge and recreate the network file lines added to wlansetup. (Fixes the duplicate lines issue within network file).
+* Sound selector should now work with Bluetooth sound devices
+* Examples folder added to /usr/share  
+
+ -- JJ Posti <techtimejourney.net>  Thu, 07 May 2015 22:10 +0200
+
+
+Audax-programs (0.8.2) Audax; urgency=urgency
+
+       * Added Simple mount program
+       *Added Simple mount to Sysman2 GUI
+
+
+ -- JJ Posti <techtimejourney.net>  Thu, 26 Feb 2015 23:22 +0200
+
+
+
+Audax-programs (0.8.1) Audax; urgency=urgency
+
+       * Added sound-selector as a menu item for Sysman2
+
+
+ -- JJ Posti <techtimejourney.net>  Wed, 18 Feb 2015 11:05:22 +0200
+
+
+Audax-programs (0.8) Audax; urgency=urgency
+
+       * Added Wallselector as a default wallpaper switcher - replacing Nitrogen.
+       * Fixed and updated Wlanset lines so that adding lines to /etc/rc.local does not cause trouble anymore.
+       * Added Sysman2 (gui), which now takes care of menuset launcher and common system tasks such as reboot and shutdown.
+       * HDMI sound support add to Audax sound selector
+
+ -- JJ Posti <techtimejourney.net>  Fri, 23 Jan 2015 15:30:31 +0200
+
+
+
+		
